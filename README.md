@@ -29,10 +29,22 @@ Import first the UniqueSlug facade
 
 ## Example
 
-       //  1 s't parameter is string type
-       //  2 nd parameter is string response
-       //  3 rd parameter is integer
-       return Logger::logDb('type', ['a', 'b', 'c'], 100);
+// 1st parameter is string type
+// 2nd parameter is string response
+// 3rd parameter is integer
 
-       //  1 s't parameter is string response
-       return Logger::logFile('{"Envelope":{"Body":{"Fault":{"faultcode":"soap:Server","detail":{"source":{"errorcode":"protocol.http.TooBigBody"}},"faultstring":"Body buffer overflow","faultactor":{}}},"encodingStyle":"http:\/\/schemas.xmlsoap.org\/soap\/encoding\/"}');
+// This line has been added for clarification
+
+### Logger::logDb('type', ['a', 'b', 'c'], 100);
+
+// 1st parameter is string response
+
+#### Logger::logFile('{"Envelope":{"Body":{"Fault":{"faultcode":"soap:Server","detail":{"source":{"errorcode":"protocol.http.TooBigBody"}},"faultstring":"Body buffer overflow","faultactor":{}}},"encodingStyle":"http:\/\/schemas.xmlsoap.org\/soap\/encoding\/"}');
+
+### This logDb
+
+> ![dblog](https://github.com/raysulkobir/logs-laravel/assets/86109661/cd4d5b66-5377-42d3-a58e-979a5518b4e5)
+
+### This logFile
+
+> ![fileupload](https://github.com/raysulkobir/logs-laravel/assets/86109661/2bbe6862-f19f-491c-970b-e8c961dce0f7)
