@@ -1,6 +1,6 @@
 ## Laravel log generator
 
-A simple but beautiful log generator for Laravel eloquent model.
+A basic but lovely log generator for the Laravel package.
 
 **Requires:** Laravel >= 10.0
 
