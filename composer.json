@@ -1,0 +1,22 @@
+{
+  "name": "raysulkobir/logs-laravel",
+  "description": "A simple package that integrate zkteco attandance log to laravel projct",
+  "type": "library",
+  "version": "1.0.0",
+  "require": {
+    "php": "^8.1"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Raysulkobir\\LogsLaravel\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "raysulkobir",
+      "email": "raysulkobir97@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
