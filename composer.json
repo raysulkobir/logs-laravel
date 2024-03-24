@@ -1,6 +1,6 @@
 {
   "name": "raysulkobir/logs-laravel",
-  "description": "A simple package that integrate zkteco attandance log to laravel projct",
+  "description": "A basic but lovely log generator for the Laravel package",
   "type": "library",
   "version": "1.0.0",
   "require": {
@@ -18,5 +18,12 @@
       "email": "raysulkobir97@gmail.com"
     }
   ],
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Raysulkobir\\LogsLaravel\\LogsServiceProvider"
+      ]
+    }
+  }
 }

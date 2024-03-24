@@ -29,9 +29,9 @@ Import first the UniqueSlug facade
 
 ## Example
 
-// 1st parameter is string type
+// 1st parameter is string table_name
 // 2nd parameter is string response
-// 3rd parameter is integer
+// 3rd parameter is integer table_id default
 
 // This line has been added for clarification
 
@@ -48,3 +48,7 @@ Import first the UniqueSlug facade
 ### This logFile
 
 > ![fileupload](https://github.com/raysulkobir/logs-laravel/assets/86109661/2bbe6862-f19f-491c-970b-e8c961dce0f7)
+
+### Security
+
+If you discover any security-related issues, please email raysulkobir97@gmail.com instead of using the issue tracker.
