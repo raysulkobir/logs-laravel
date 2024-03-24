@@ -8,12 +8,12 @@ use Raysulkobir\LogsLaravel\Models\Log;
 
 class Logger
 {
-    static function logDb($type, $contain, $table_id = null)
+    static function logDb($table_name, $contain, $table_id = null)
     {
         $log = new Log;
-        $log->type = $type;
-        $log->table_id = $table_id;
+        $log->table_name = $table_name;
         $log->contain = json_encode($contain, true);
+        $log->table_id = $table_id;
         $log->save();
     }
 

@@ -21,6 +21,10 @@ Service Provider Registration In config/app.php, add in providers array -
               Raysulkobir\LogsLaravel\LogsServiceProvider::class,
        ]
 
+## Database migration
+
+       php artisan migrate
+
 ## Use from Controller
 
 Import first the UniqueSlug facade
@@ -43,11 +47,11 @@ Import first the UniqueSlug facade
 
 ### This logDb
 
-> ![dblog](https://github.com/raysulkobir/logs-laravel/assets/86109661/cd4d5b66-5377-42d3-a58e-979a5518b4e5)
+![Screenshot_1](https://github.com/raysulkobir/logs-laravel/assets/86109661/59a1f6d8-8b4d-46ca-8e0e-d878645bfdaf)
 
 ### This logFile
 
-> ![fileupload](https://github.com/raysulkobir/logs-laravel/assets/86109661/2bbe6862-f19f-491c-970b-e8c961dce0f7)
+![fileupload](https://github.com/raysulkobir/logs-laravel/assets/86109661/2bbe6862-f19f-491c-970b-e8c961dce0f7)
 
 ### Security
 
